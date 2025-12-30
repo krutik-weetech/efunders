@@ -3,10 +3,14 @@ import Efunders from "../../assets/efunders.svg";
 export default function Navbar() {
   return (
     <Stack
-      className="flex-row justify-between w-100"
+      className="flex-row justify-between w-100 text-white"
       sx={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        zIndex: 1000,
         height: "107px",
-        background: "rgba(0, 0, 0, 0.4)",
+        background: "rgba(0, 0, 0, 0.1)",
         backdropFilter: "blur(20px)",
       }}
     >

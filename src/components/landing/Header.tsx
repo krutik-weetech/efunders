@@ -19,7 +19,7 @@ const styles = {
     width: "100%",
     height: "100%",
     objectFit: "cover" as const,
-    filter: "grayscale(100%)",
+    filter: "grayscale(100%) brightness(0.4)",
     zIndex: 0,
   },
   content: {

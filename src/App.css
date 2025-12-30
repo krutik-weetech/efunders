@@ -2,6 +2,12 @@
 
 :root {
   --fontFamily: "Poppins", sans-serif;
+  --graytext: rgba(141, 149, 158, 1);
+  --white: rgba(255, 255, 255, 1);
+  --black: rgba(0, 0, 0, 1);
+  --blacktext: rgba(19, 27, 41, 1);
+  --green: rgba(130, 191, 42, 1);
+  --lightgreen: rgba(242, 246, 236, 1); /* for bg  */
 }
 
 * {
@@ -24,13 +30,52 @@ body a:hover {
   text-decoration: none;
 }
 
+/* ************text-colors**************  */
+.text-gray {
+  color: var(--graytext) !important;
+}
+.text-white {
+  color: var(--white) !important;
+}
+.text-black {
+  color: var(--black) !important;
+}
+.text-blacktext {
+  color: var(--blacktext) !important;
+}
+.text-green {
+  color: var(--green) !important;
+}
+
+
+/* ************bg-colors**************  */
+.bg-lightgreen {
+  background-color: var(--lightgreen) !important;
+}
+.bg-white {
+  background-color: var(--white) !important;
+}
+.bg-black {
+  background-color: var(--black) !important;
+}
+.bg-green {
+  background-color: var(--green) !important;
+}
+.bg-lightgreen {
+  background-color: var(--lightgreen) !important;
+}
+
+
 /* ************FONT-FAMILY**************  */
-.font-nunitoSans {
+.font-poppins {
   font-family: var(--fontFamily) !important;
 }
 /* ************FONT-SIZES**************  */
-.fs-18 {
-  font-size: 18px !important;
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-16 {
+  font-size: 16px !important;
 }
 .fs-24 {
   font-size: 24px !important;
@@ -43,6 +88,12 @@ body a:hover {
 }
 .fs-40 {
   font-size: 40px !important;
+}
+.fs-44 {
+  font-size: 44px !important;
+}
+.fs-46 {
+  font-size: 46px !important;
 }
 /* ************BODY-FONT-SIZES**************  */
 .text-lg {
@@ -71,16 +122,16 @@ body a:hover {
 .font-light {
   font-weight: 300 !important;
 }
-.font-normal {
+.fw-400 {
   font-weight: 400 !important;
 }
-.font-medium {
+.fw-500 {
   font-weight: 500 !important;
 }
 .font-semibold {
   font-weight: 600 !important;
 }
-.font-bold {
+.fw-700 {
   font-weight: 700 !important;
 }
 .font-extrabold {
@@ -89,6 +140,17 @@ body a:hover {
 .font-black {
   font-weight: 900 !important;
 }
+/* ************FONT-STYLE************** */
+.font-bold {
+  font-style: bold !important;
+}
+.font-italic {
+  font-style: italic !important;
+}
+.font-underline {
+  font-style: underline !important;
+}
+
 /* ************BORDER-RADIUS************** */
 .rounded-none {
   border-radius: none !important;
@@ -220,7 +282,7 @@ body a:hover {
   gap: 16px !important;
 }
 /* ************WIDTH**************  */
-.w-full {
+.w-100 {
   width: 100% !important;
 }
 .w-half {
