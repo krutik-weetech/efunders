@@ -5,6 +5,7 @@ import Commission from "../components/landing/Commission";
 import People from "../assets/people.png";
 import OrderReceived from "../assets/order-received.png";
 import CheeringPeople from "../assets/cheering-people.png";
+import Benefits from "../components/landing/Benefits";
 
 export default function Landing() {
   return (
@@ -21,6 +22,7 @@ export default function Landing() {
         subtitle="PLUS DONATIONS FROM YOUR SUPPORTERS"
         desc="Welcome to our studio! We employ people who have passion for design and marketing. It’s a perfect combination of professionalism and creative individual approach to every client or project."
       />
+      <Benefits />
       <Commission
         title1="NO DOOR TO DOOR SELLING"
         title2="OR DELIVERIES"
